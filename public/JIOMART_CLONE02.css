@@ -1,0 +1,395 @@
+/* --- Global Reset & Basics --- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Crucial for responsive padding */
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    background-color: #f6f6f6;
+}
+
+/* --- Header Section --- */
+.head {
+    width: 100%;
+    min-height: 70px;
+    background-color: rgb(0, 137, 178);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.headj {
+    display: flex;
+    align-items: center;
+    /* Removed large margin-left for better spacing */
+}
+
+.headj img {
+    width: 120px;
+    height: auto;
+}
+
+.for-flex {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#search {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #046b8e;
+    color: white;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: rgba(255,255,255, 0.7);
+}
+
+.for-flex1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart img, .login img {
+    width: 30px;
+    height: 30px;
+}
+
+.sign {
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+}
+
+/* --- Sub-Navigation --- */
+.navs2 {
+    width: 100%;
+    background-color: #046b8e;
+    color: white;
+    font-weight: 600;
+    padding: 10px 5%;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs2 img {
+    width: 12px;
+    margin-left: 5px;
+}
+
+/* --- Category Scroll Bar --- */
+.option {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto; /* Allows horizontal scroll on mobile */
+    white-space: nowrap;
+    position: sticky;
+    top: 60px; /* Adjust based on header height */
+    z-index: 900;
+}
+
+/* Hide scrollbar for cleaner look */
+.option::-webkit-scrollbar {
+    display: none;
+}
+
+.right_arrow, .left_arrow {
+    padding: 0 15px;
+    display: none; /* Hidden on responsive usually */
+}
+
+.for-flex36 {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.jio_utsav img {
+    height: 30px;
+    width: auto;
+}
+
+/* --- Main Banners (3 Images) --- */
+.photo_three {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap; /* Allows stacking on mobile */
+    height: auto;
+}
+
+.photo1 {
+    width: 32%; /* 3 items per row on desktop */
+    height: auto;
+}
+
+.photo1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* --- Product Grid Sections --- */
+.photo_six {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    height: auto; /* Let height grow with content */
+}
+
+.long {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.pooja {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.line_six {
+    display: flex;
+    flex-wrap: wrap; /* IMPORTANT: Allows wrapping */
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.photo_box {
+    /* Calculation: (100% / 6 items) - gap adjustment */
+    width: calc(16.66% - 17px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.photo_s {
+    width: 100%;
+    aspect-ratio: 1/1; /* Keeps images square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.photo_s img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.texter {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #444;
+    width: 100%;
+    height: auto;
+}
+
+/* --- Footer --- */
+.containers {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top: 40px;
+    height: auto;
+}
+
+.CONTAIN_BOX {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 30px;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.box, .box_five {
+    flex: 1;
+    min-width: 200px; 
+    height: auto;
+}
+
+.weights, .weights_style {
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    display: block;
+    color: #333;
+}
+
+.box div, .box_five div {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.box div:hover {
+    color: #0089b2;
+}
+
+.for-flex1187 {
+    display: flex;
+    gap: 10px;
+}
+
+/* Footer Bottom Bar */
+.long_box {
+    width: 100%;
+    background-color: #eee;
+    padding: 15px 0;
+    height: auto;
+}
+
+.long_int {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    gap: 10px;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+}
+
+.bag img {
+    width: 30px;
+    height: auto;
+}
+
+.f_size {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .photo_box {
+        /* 4 items per row */
+        width: calc(25% - 15px);
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Header Reorganization */
+    .head {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    
+    .headj {
+        margin-left: 0;
+    }
+    
+    .for-flex {
+        order: 3; /* Move search bar to bottom */
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+
+    .sign {
+        display: none; /* Hide 'Sign In' text on small screens */
+    }
+
+    /* Subheader */
+    .space {
+        padding-left: 0;
+    }
+
+    /* Banners */
+    .photo_three {
+        flex-direction: column;
+    }
+    
+    .photo1 {
+        width: 100%; /* Full width banners */
+    }
+
+    /* Product Grid */
+    .photo_box {
+    
+        width: calc(50% - 10px); 
+    }
+    
+    .texter {
+        font-size: 0.8rem;
+    }
+
+    /* Footer */
+    .CONTAIN_BOX {
+        flex-direction: column;
+    }
+    
+    .box, .box_five {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    
+    .long_int {
+        justify-content: center;
+        text-align: center;
+    }
+}
