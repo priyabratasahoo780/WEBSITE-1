@@ -1,23 +1,18 @@
-/* --- GLOBAL RESET --- */
-* {
+﻿* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-
 a {
     cursor: pointer;
     text-decoration: none;
     color: inherit;
 }
-
 body {
     background-color: #f5f5f5;
     overflow-x: hidden;
 }
-
-/* --- HEADER SECTION --- */
 .head {
     width: 100%;
     background-color: #008ecc;
@@ -30,23 +25,18 @@ body {
     justify-content: space-between;
     gap: 15px;
 }
-
 .headj img {
     width: 120px;
     display: block;
 }
-
 .card_photo {
-    /* border: 1px solid red; */
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963064/smartees-round-neck-half-sleeve-tshirt-blue-l-product-images-441861543020-0-202509111157_wwvd0w.webp");
     width: 10.5vw;
     height: 26vh;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: 30vh 30vh;
-    /* position: relative; */
 }
-
 .card_photo1 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963063/live-fashion-pink-women-croco-textured-pu-sling-bag-product-images-rvxe08foxn-0-202409111402_eckfmp.webp");
     width: 10.5vw;
@@ -56,7 +46,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo2 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963060/bruton-fit-man-sneaker-shoes-for-men-orange-product-images-rvzri5gtep-0-202401160409_b7ifvw.webp");
     width: 10.5vw;
@@ -67,7 +56,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo3 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963058/bullmer-brown-trendy-printed-cotton-blend-crew-neck-round-neck-half-sleeve-tshirt-for-men-non-returnable-product-images-rvbhiygfot-0-202508131353_uwyeer.webp");
     width: 10.5vw;
@@ -77,7 +65,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo4 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963056/hotstyle-men-s-black-sneakers-product-images-rvtzml7sxu-0-202412241913_vobti1.webp");
     width: 10.5vw;
@@ -87,7 +74,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo5 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963054/pearluxis-women-sling-bags-product-images-rveqzgi5vw-0-202508311747_ngokmo.webp");
     width: 10.5vw;
@@ -97,7 +83,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo6 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963043/swarajya-india-indra-jyoti-pooja-oil-900ml-enriched-sandalwood-fragnance-lamp-oil-puja-oil-deepam-oil-used-in-pooja-festivals-havan-i-product-images-orv3ipgeuz2-p599338475-0-202509090747_wkeqzl.webp");
     background-repeat: no-repeat;
@@ -106,7 +91,6 @@ body {
     height: 26vh;
     margin: auto;
 }
-
 .card_photo7 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963042/salutary-pure-camphor-tablet-100-gram-kapoor-tablet-pack-of-2-100-gram-each-pack-product-images-orvritghimo-p612068199-0-202508011411_tv5p3m.webp");
     width: 10.5vw;
@@ -116,7 +100,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo8 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963037/om-phool-batti-cow-ghee-diya-for-puja-100-pieces-wax-free-vegan-ghee-batti-wicks-jyot-for-puja-aarti-pack-of-1-yellow-100-pcs-product-images-orvtqxyk4pg-p594808262-0-202210261704_gfhyov.webp");
     width: 10.5vw;
@@ -126,7 +109,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo9 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963036/limetro-stainless-steel-mirror-finish-dinner-set-combo-set-of-6-pcs-product-images-o493831374-p603846735-0-202311071551_tzlyo5.webp");
     width: 10.5vw;
@@ -136,7 +118,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo10 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963033/neelam-stainless-steel-ultra-pressure-cooker-with-outer-lid-2l-3l-5l-3-pcs-product-images-o493850160-p607295711-0-202401111353_ky3del.webp");
     width: 10.5vw;
@@ -146,7 +127,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo11 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1760963032/ginara-steel-saucepan-1-5-l-product-images-o494241052-p604744495-0-202309221749_cpbhiq.webp");
     width: 10.5vw;
@@ -156,7 +136,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo12 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128248/zebronics-zeb-wing-wired-optical-usb-mouse-with-high-precision-plug-and-play-digital-o491998376-p590960989-0-202112301710_kuvfzp.webp");
     width: 10.5vw;
@@ -166,7 +145,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo13 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128242/wonderchef-crescent-electric-kettle-1-5-l-digital-o494226707-p609129469-0-202411271819_fbuq60.webp");
     width: 10.5vw;
@@ -176,7 +154,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo14 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128245/kaltron-7-socket-extension-board-with-fuse-cord-length-2-5-meter-white-product-images-orvox4ywkjx-p600479303-0-202304181220_p8za5k.webp");
     width: 10.5vw;
@@ -186,7 +163,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo15 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128239/samsung-usb-c-to-usb-c-cable-universal-compatibility-reversible-design-2-amp-100-cm-1-m-length-high-speed-data-transfer-charging-original-white-ep-da705bwegin-digital-o491996849-p590442824-0-202410211849_xi6yd6.webp");
     width: 10.5vw;
@@ -196,7 +172,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo16 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128236/hoppup-predator-xo1-gaming-earbuds-with-50h-playtime-13mm-drivers-40ms-low-latency-enc-bluetooth-headset-black-true-wireless-product-images-orvhrt4bpm6-p611312636-0-202504161105_et0ojy.webp");
     width: 10.5vw;
@@ -206,7 +181,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo17 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128231/reconnect-be01803-wireless-earphone-black-digital-o494249502-p609899125-0-202409041725_mudswt.webp");
     width: 10.5vw;
@@ -216,7 +190,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo18 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128708/pinkcity-wellness-groundnut-oil-5-litres-wooden-cold-pressed-peanut-oil-1-ltr-x-5-bottles-product-images-orvukhxrmwi-p596975160-0-202507061246_xgqhus.webp");
     width: 10.5vw;
@@ -226,7 +199,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo19 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128711/rajbhog-plain-mankhana-250-g-product-images-orvwgrptaln-p590809907-0-202109301943_f4sc9m.webp");
     width: 10.5vw;
@@ -236,7 +208,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo20 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128704/navjeevan-jeera-whole-super-saver-pack-1kg-product-images-orvp3uhc7lh-p609570151-0-202407241129_r004rd.webp");
     width: 10.5vw;
@@ -246,7 +217,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo21 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128700/veer-brand-zaika-long-grain-basmati-rice-10-kg-product-images-orvvxz94klo-p596533238-0-202501301244_l9enec.webp");
     width: 10.5vw;
@@ -256,7 +226,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo22 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128699/sarfa-kachi-ghani-cold-pressed-mustard-oil-1l-pouch-product-images-orv8hrjuqpj-p609353052-0-202507311706_swjlrx.webp");
     width: 10.5vw;
@@ -266,7 +235,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo23 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761128694/lali-balaji-california-premium-almond-200g-product-images-orviuff6hly-p590652798-0-202109022136_nerxay.webp");
     width: 10.5vw;
@@ -276,7 +244,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo24 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761124544/true-elements-rolled-oats-1-kg-buy-1-get-1-free-rolled-oats-that-keeps-you-full-till-lunch-100-natural-and-gluten-free-oats-oats-for-weight-loss-management-product-images-orvhzbsojav-p603678001-0-202310091405_tsprx3.webp");
     width: 10.5vw;
@@ -286,7 +253,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo25 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129728/joy-honey-and-almonds-nourishing-body-lotion-300ml-pack-of-2-product-images-orvjsxhk5f0-p602262449-0-202501281434_f96z5j.webp");
     width: 10.5vw;
@@ -296,7 +262,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo26 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129723/dabur-red-toothpaste-700g-2-packs-each-with-2-x-175g-1-toothbrush-worth-rs-30-fluoride-free-bad-breath-cavity-protection-plaque-removal-13-ayurvedic-herbs-for-whole-mouth-health-product-images-orvtlpzjqsx-p61_klc1vj.webp");
     width: 10.5vw;
@@ -306,7 +271,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo27 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129727/himalaya-gentle-baby-shampoo-400-ml-product-images-orvcwhnyh7j-p610030233-0-202409261357_t9htqi.webp");
     width: 10.5vw;
@@ -316,7 +280,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo28 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129718/lizol-disinfectant-surface-floor-cleaner-liquid-citrus-5-litre-product-images-orvtmfjuxuo-p601213316-0-202403271318_hja0ef.webp");
     width: 10.5vw;
@@ -326,7 +289,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -336,7 +298,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .viewse {
     color: #046b8e;
     font-weight: bolder;
@@ -346,7 +307,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .card_photo30 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129699/kuchipoo-track-pant-for-boys-girls-multicolor-pack-of-5-product-images-rvvt99wtff-0-202412191520_1_o62cfm.webp");
     width: 10.5vw;
@@ -356,7 +316,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo31 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129696/bullmer-trendy-clothing-set-with-oversized-t-shirt-pants-co-ords-for-men-non-returnable-product-images-rvtv9czdxz-0-202506192036_1_gayxtf.webp");
     width: 10.5vw;
@@ -366,7 +325,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo32 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129693/eyebogler-teal-tshirts-men-tshirt-tshirt-for-men-tshirt-mens-tshirt-men-s-polo-neck-regular-fit-half-sleeves-colorblocked-t-shirt-product-images-rvkye5vraq-0-202504231102_1_b20otd.webp");
     width: 10.5vw;
@@ -376,7 +334,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo33 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129689/sender-men-casual-sports-shoes-black-product-images-rvqbsnymfz-0-202502191218_1_fbs6pk.webp");
     width: 10.5vw;
@@ -386,7 +343,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo34 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129685/1stop-fashion-kurti-for-women-product-images-rvlirebxmp-0-202505291209_1_y53umm.webp");
     width: 10.5vw;
@@ -396,7 +352,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo35 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129679/ddg-women-printed-naira-cut-kurti-product-images-rvg1qlxp4h-0-202502261544_1_s2hgsc.webp");
     width: 10.5vw;
@@ -406,7 +361,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo36 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142664/melbon-d115-smart-band-all-android-ios-device-product-images-orvefovmdsf-p593683805-0-202209091536_2_ykjhxe.webp");
     width: 10.5vw;
@@ -416,7 +370,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo37 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761143141/mak-20w-type-c-pd-fast-charger-with-lightning-cable-high-speed-charging-for-iphone-12-12-pro-12-mini-12-pro-max-11-xs-xr-x-8-plus-ipad-pro-air-mini-white-product-images-orvlattmg9q-p611965703-0-2025071719_2_ilulcl.webp");
     width: 10.5vw;
@@ -426,7 +379,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo38 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142654/xome-02-bluetooth-neckband-with-fast-charging-type-c-bt-5-2-dual-pairing-72-hours-playback-water-sweat-resistant-orange-product-images-orvvda9lcyk-p611209033-0-202503251137_2_defk9e.webp");
     width: 10.5vw;
@@ -436,7 +388,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo39 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142659/longway-kwidlight-weight-non-stick-teflon-coated-dry-iron-electric-iron-for-clothes-1-year-warranty-1100-watt-black-product-images-orvfs5k4ua1-p603932295-0-202503201617_1_cuuism.webp");
     width: 10.5vw;
@@ -446,7 +397,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo40 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142649/melbon-unique-t55-punnkfunnk-unique-t55-1-85-hd-display-bluetooth-calling-smart-watch-100-sports-modes-heart-rate-monitoring-spo2-ai-voice-assistant-ip68-pink-product-images-orv5mdriqwd-p607990937-0-20240_1_pc8y13.webp");
     width: 10.5vw;
@@ -456,7 +406,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo41 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142644/mak-65w-supervooc-dash-fast-charging-adapter-6a-65w-vooc-dart-warp-dash-technology-with-red-type-c-cable-travel-friendly-fast-charger-white-cable-included-product-images-orv7qc40l6x-p611964854-0-202507161_1_zocvw1.webp");
     width: 10.5vw;
@@ -466,7 +415,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo42 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142618/decent-home-polycotton-single-bedsheet-with-1-pillow-covers-228-x-152-cm-grey-product-images-orvij8z2woy-p599717859-0-202303221748_w5bykb.webp");
     width: 10.5vw;
@@ -476,7 +424,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo43 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142613/quirky-home-cotton-blend-double-bedsheet-with-2-pillow-cover-duke-db-607-product-images-orvkjnsbrgp-p612121019-0-202510151542_uasvej.webp");
     width: 10.5vw;
@@ -486,7 +433,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo44 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142608/evokk-india-bedsheet-for-single-bed-ultra-soft-microfiber-with-pillow-cover-printed-single-size-sheet-for-home-hotel-resort-guest-house-50x87-inches-sky-flower-product-images-o494734205-p612403762-0-202509041_uccxnd.webp");
     width: 10.5vw;
@@ -496,7 +442,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo45 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142604/apni-dukan-240-tc-glace-cotton-double-fitted-gray-gola-bedsheet-with-2-pillow-covers-225-x-225-cm-product-images-orvufpulnaw-p612381845-0-202509011208_bjpcj0.webp");
     width: 10.5vw;
@@ -506,7 +451,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo46 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142599/decent-home-polycotton-3d-printed-single-bedsheet-with-1-pillow-covers-228-x-152-cm-blue-product-images-orveyfjb1gm-p599918273-0-202309301128_jkklmw.webp");
     width: 10.5vw;
@@ -516,7 +460,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo47 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142594/quirky-home-floral-print-cotton-blend-double-bedsheet-with-2-pillow-cover-duke-db-604-product-images-orvr9p9lzyi-p612117659-0-202510140934_xeyurs.webp");
     width: 10.5vw;
@@ -526,7 +469,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo48 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142569/men-lightly-washed-slim-fit-jeans-model-420497214_darkblue-0-202410211727_ohv5bv.webp");
     width: 10.5vw;
@@ -536,7 +478,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo49 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142564/printed-slim-fit-leggings-with-elasticated-waist-model-441149435_navyblue-0-202307251454_jwgnzi.webp");
     width: 10.5vw;
@@ -546,7 +487,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo50 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142560/reliance-jewels-999-laxmi-round-gold-coin-2-g-product-images-o30000691-p603073733-0-202310031754_wkpgzt.webp");
     width: 10.5vw;
@@ -556,7 +496,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo51 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142555/reliance-jewels-999-bal-gopal-round-gold-coin-1-g-product-images-o30000682-p603073580-0-202312061332_a3oqev.webp");
     width: 10.5vw;
@@ -566,7 +505,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo52 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142550/graphic-print-round-neck-t-shirt-model-443009898_grey-0-202306131810_ajwing.webp");
     width: 10.5vw;
@@ -576,7 +514,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo53 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761142546/men-flat-front-slim-fit-trousers-model-420501871_lgtgrey-0-202505301711_c8d1fk.webp");
     width: 10.5vw;
@@ -586,7 +523,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -596,7 +532,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -606,7 +541,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -616,7 +550,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -626,7 +559,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -636,7 +568,6 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
 .card_photo29 {
     background-image: url("https://res.cloudinary.com/dtw64z2mf/image/upload/v1761129717/continental-speciale-assorted-coffee-sachets-96gm-pack-of-48-flavour-instant-coffee-powder-2g-each-hazelnut-vanilla-mocha-caramel-makes-48-cups-enjoy-hot-or-cold-product-images-orvqoze3kua-p612033332-0-202507_wc50yr.webp");
     width: 10.5vw;
@@ -646,15 +577,12 @@ body {
     background-size: contain;
     background-size: 100% 100%;
 }
-
-/* Search Bar */
 .for-flex {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     max-width: 600px;
 }
-
 #search {
     width: 100%;
     height: 40px;
@@ -664,8 +592,6 @@ body {
     outline: none;
     font-size: 1rem;
 }
-
-/* Icons (Cart/Login) */
 .for-flex1 {
     display: flex;
     gap: 20px;
@@ -674,16 +600,12 @@ body {
     font-weight: bold;
     flex-shrink: 0;
 }
-
 .cart img,
 .login img {
     width: 28px;
     height: 28px;
     filter: brightness(0) invert(1);
-    /* Makes black icons white */
 }
-
-/* --- SUB-HEADER --- */
 .navs2 {
     background-color: #ececec;
     padding: 8px 5%;
@@ -692,13 +614,10 @@ body {
     display: flex;
     align-items: center;
 }
-
 .navs2 img {
     width: 10px;
     margin-left: 5px;
 }
-
-/* --- SCROLLABLE MENU --- */
 .option {
     background-color: white;
     padding: 10px 5%;
@@ -707,15 +626,10 @@ body {
     gap: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     scrollbar-width: none;
-    /* Firefox */
 }
-
 .option::-webkit-scrollbar {
     display: none;
 }
-
-/* Chrome/Safari */
-
 .for-flex36 {
     display: flex;
     align-items: center;
@@ -725,41 +639,31 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
 }
-
 .jio_utsav img {
     width: 25px;
 }
-
 .live {
     font-size: 0.85rem;
     font-weight: 600;
 }
-
-
 .container-wrapper {
     width: 95%;
     max-width: 1400px;
     margin: 20px auto;
 }
-
-/* --- BANNERS --- */
 .coupon img,
 .coupon_down img {
     width: 100%;
     border-radius: 12px;
     display: block;
 }
-
-/* --- GRID SYSTEM (For banners) --- */
 .photo_three,
 .photo_three_one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 Equal columns */
     gap: 15px;
     margin-bottom: 20px;
 }
-
 .photo1 img,
 .photo1-2 img {
     width: 100%;
@@ -767,16 +671,13 @@ body {
     object-fit: cover;
     border-radius: 12px;
 }
-
 .sky,
 .skies {
     background-color: #e3f2fd;
     padding: 20px 0;
     margin: 20px 0;
 }
-
 .OFF_50 {
-    /* border: 1px solid red; */
     width: 95%;
     max-width: 1400px;
     margin: 0 auto 15px auto;
@@ -784,13 +685,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 .finds {
     font-size: 1.2rem;
     font-weight: 800;
     color: #333;
 }
-
 .view,
 .views,
 .viewses {
@@ -798,20 +697,15 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-
-/* --- CARD GRID SYSTEM --- */
 .photo_six,
 .photo_sixes {
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    /* Responsive Grid Logic */
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 15px;
 }
-
-/* --- PRODUCT CARD STYLING --- */
 .card,
 .card1 {
     background: white;
@@ -821,18 +715,14 @@ body {
     transition: transform 0.2s;
     border: 1px solid #eee;
 }
-
 .card:hover,
 .card1:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
-/* FIXED IMAGE VISIBILITY */
 [class^="card_photo"] {
     width: 100%;
     aspect-ratio: 1/1;
-    /* Keeps it square */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -840,15 +730,11 @@ body {
     position: relative;
     background-color: #f9f9f9;
 }
-
-
 [class^="card_photo"] img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
-
-/* Heart Icon Positioning */
 .heart,
 .heart1 {
     position: absolute;
@@ -862,11 +748,9 @@ body {
     padding: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .s_box {
     padding: 5px;
 }
-
 .smart {
     font-size: 0.9rem;
     color: #333;
@@ -875,20 +759,17 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
 .for-flex103 {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 5px;
 }
-
 .discount {
     text-decoration: line-through;
     color: #888;
     font-size: 0.8rem;
 }
-
 .greens {
     color: #008a00;
     font-weight: bold;
@@ -897,7 +778,6 @@ body {
     padding: 2px 6px;
     border-radius: 4px;
 }
-
 .Add {
     margin-top: 10px;
     border: 1px solid #008ecc;
@@ -908,13 +788,10 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
-
 .Add:hover {
     background-color: #008ecc;
     color: white;
 }
-
-/* --- CIRCLE CATEGORIES (Top Picks) --- */
 .photo_o {
     display: flex;
     gap: 15px;
@@ -922,26 +799,20 @@ body {
     padding: 10px 5%;
     scrollbar-width: none;
 }
-
 .card_one,
 .card_ones {
     flex: 0 0 120px;
-    /* Fixed width */
 }
-
 .card_one img,
 .card_ones img {
     width: 100%;
     border-radius: 12px;
 }
-
-/* --- FOOTER --- */
 .containers {
     background-color: #f8f9fa;
     padding-top: 40px;
     border-top: 1px solid #ddd;
 }
-
 .CONTAIN_BOX {
     display: flex;
     flex-wrap: wrap;
@@ -951,31 +822,26 @@ body {
     margin: 0 auto;
     gap: 30px;
 }
-
 .box,
 .box_five {
     flex: 1;
     min-width: 200px;
 }
-
 .weights,
 .weights_style {
     font-weight: bold;
     margin-bottom: 15px;
     display: block;
 }
-
 .box div {
     font-size: 0.9rem;
     color: #555;
     margin-bottom: 8px;
     cursor: pointer;
 }
-
 .box div:hover {
     color: #008ecc;
 }
-
 .long_box {
     background: #e9ecef;
     padding: 15px 0;
@@ -984,17 +850,13 @@ body {
     font-size: 0.8rem;
     color: #666;
 }
-
-/* --- GLOBAL LAYOUT --- */
 .sky,
 .skies {
     background-color: #e3f2fd;
     padding: 20px 0;
     margin: 20px 0;
     box-sizing: border-box;
-    /* Ensures padding doesn't break width */
 }
-
 .OFF_50 {
     width: 95%;
     max-width: 1400px;
@@ -1003,34 +865,25 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 .finds {
     font-size: 1.2rem;
     font-weight: 800;
     color: #333;
 }
-
 .viewse {
     color: #008ecc;
     font-weight: 700;
     cursor: pointer;
     font-size: 0.9rem;
 }
-
-/* --- RESPONSIVE GRID SYSTEM --- */
 .photo_sixes {
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-
-    /* DESKTOP LOGIC: */
-    /* Allows cards to be minimum 180px. If screen is huge, they stretch. */
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 20px;
 }
-
-/* --- PRODUCT CARD STYLING --- */
 .card1 {
     background: white;
     border-radius: 12px;
@@ -1041,20 +894,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Pushes "Add" button to bottom */
 }
-
 .card1:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
-
-/* IMAGE CONTAINER */
-/* This selector targets card_photo30, card_photo31, etc. automatically */
 [class^="card_photo"] {
     width: 100%;
     aspect-ratio: 1/1;
-    /* Keeps it perfectly square */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1064,16 +911,12 @@ body {
     border-radius: 8px;
     overflow: hidden;
 }
-
 [class^="card_photo"] img {
     max-width: 80%;
     max-height: 80%;
     object-fit: contain;
     mix-blend-mode: multiply;
-    /* Helps transparent images look better on grey bg */
 }
-
-/* HEART ICON */
 .heart {
     position: absolute;
     top: 8px;
@@ -1084,26 +927,19 @@ body {
     background: white;
     border-radius: 50%;
     display: flex;
-    /* Center the icon inside circle */
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
-
 .heart img {
     width: 14px;
     height: 14px;
 }
-
-/* TEXT CONTENT */
 .s_box {
     padding: 0 2px;
     margin-bottom: 10px;
 }
-
 .smart {
     font-size: 0.95rem;
     color: #333;
@@ -1111,25 +947,19 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    /* Adds '...' if text is too long */
 }
-
-/* PRICE AREA */
 .for-flex103 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    /* Allows wrap on very small screens */
     gap: 8px;
     margin-top: 5px;
 }
-
 .discount {
     text-decoration: line-through;
     color: #999;
     font-size: 0.8rem;
 }
-
 .greens {
     color: #008a00;
     font-weight: 700;
@@ -1138,170 +968,112 @@ body {
     padding: 2px 6px;
     border-radius: 4px;
 }
-
-/* ADD BUTTON */
 .Add {
     margin-top: auto;
-    /* Pushes button to very bottom of card */
     border: 1px solid #008ecc;
     color: #008ecc;
     font-weight: 700;
     text-align: center;
     padding: 8px;
     border-radius: 50px;
-    /* Fully rounded pill shape */
     cursor: pointer;
     transition: all 0.2s ease;
     font-size: 0.9rem;
 }
-
 .Add:hover {
     background-color: #008ecc;
     color: white;
 }
-
-/* =========================================
-   MOBILE RESPONSIVENESS (Media Queries)
-   ========================================= */
-
-/* Tablet View (iPad, etc.) */
 @media (max-width: 900px) {
     .photo_sixes {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     }
 }
-
-/* Mobile View (Phones) */
 @media (max-width: 600px) {
-
     .finds {
         font-size: 1rem;
     }
-
-    /* Smaller Heading */
-
     .photo_sixes {
-        /* On mobile, we force exactly 2 columns. 
-           1fr 1fr means "split space equally in two" */
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        /* Smaller gap for mobile to save space */
     }
-
     .card1 {
         padding: 8px;
-        /* Reduce padding on mobile */
     }
-
     .smart {
         font-size: 0.85rem;
-        /* Smaller text */
     }
-
     .Add {
         padding: 5px;
         font-size: 0.8rem;
     }
-
     .greens {
         font-size: 0.7rem;
     }
-
     .viewse {
         font-size: 0.8rem;
     }
 }
-
-/* Tablet & Mobile Landscape */
 @media screen and (max-width: 1024px) {
-
     .photo_three,
     .photo_three_one {
         grid-template-columns: repeat(2, 1fr);
-        /* 2 cols */
     }
-
     .head {
         padding: 10px 3%;
     }
 }
-
-/* Mobile Portrait */
 @media screen and (max-width: 768px) {
-
-    /* Header Stack */
     .head {
         flex-wrap: wrap;
     }
-
     .headj {
         order: 1;
     }
-
     .for-flex1 {
         order: 2;
     }
-
     .for-flex {
         order: 3;
         width: 100%;
         max-width: 100%;
         margin-top: 10px;
     }
-
     .sign {
         display: none;
     }
-
-    /* Hide 'Sign in' text */
-
-    /* Banners Stack */
     .photo_three,
     .photo_three_one {
         grid-template-columns: 1fr;
-        /* 1 col */
     }
-
-    /* Cards - 2 per row */
     .photo_six,
     .photo_sixes {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-
     .card_one,
     .card_ones {
         flex: 0 0 100px;
-        /* Smaller circles */
     }
-
-    /* Footer Stack */
     .CONTAIN_BOX {
         flex-direction: column;
     }
-
     .box {
         border-bottom: 1px solid #ddd;
         padding-bottom: 10px;
     }
 }
-
-/* --- GLOBAL RESET & CORE STYLES --- */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f5f5f5;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
 }
-
 a { text-decoration: none; color: inherit; }
-
-/* --- RESPONSIVE HEADER --- */
 .head {
     width: 100%;
     background-color: #008ecc;
@@ -1312,18 +1084,14 @@ a { text-decoration: none; color: inherit; }
     top: 0;
     z-index: 1000;
     gap: 10px;
-    flex-wrap: wrap; /* Allows items to stack on mobile */
+    flex-wrap: wrap; 
 }
-
 .headj img { width: 100px; display: block; }
-
-/* Search Bar Container */
 .for-flex {
     flex-grow: 1;
     display: flex;
     justify-content: center;
 }
-
 #search {
     width: 100%;
     height: 38px;
@@ -1333,7 +1101,6 @@ a { text-decoration: none; color: inherit; }
     outline: none;
     font-size: 0.9rem;
 }
-
 .for-flex1 {
     display: flex;
     gap: 15px;
@@ -1342,37 +1109,31 @@ a { text-decoration: none; color: inherit; }
     font-weight: bold;
 }
 .cart img, .login img { width: 24px; height: 24px; filter: brightness(0) invert(1); }
-
-/* --- NAVIGATION / PILLS --- */
 .option {
     background-color: white;
     padding: 10px 3%;
     display: flex;
-    overflow-x: auto; /* Enables horizontal scroll */
+    overflow-x: auto; 
     gap: 15px;
-    scrollbar-width: none; /* Hide scrollbar Firefox */
+    scrollbar-width: none; 
 }
-.option::-webkit-scrollbar { display: none; /* Hide scrollbar Chrome */ }
-
+.option::-webkit-scrollbar { display: none;  }
 .for-flex36 {
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-shrink: 0; /* Prevents squishing */
+    flex-shrink: 0; 
     background: #f0f0f0;
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 0.85rem;
     white-space: nowrap;
 }
-
-/* --- SECTIONS --- */
 .sky, .skies {
     background-color: #e3f2fd;
     padding: 15px 0;
     margin: 10px 0;
 }
-
 .OFF_50 {
     width: 95%;
     max-width: 1400px;
@@ -1381,30 +1142,23 @@ a { text-decoration: none; color: inherit; }
     justify-content: space-between;
     align-items: center;
 }
-
 .finds { font-size: 1.1rem; font-weight: 800; color: #333; }
-
-/* Fixed "View All" Button logic */
 .view, .views, .viewses, .viewse {
     color: #008ecc;
     font-weight: 700;
     font-size: 0.9rem;
     cursor: pointer;
-    margin-left: auto; /* Pushes it to the right automatically */
-    padding: 0; /* Removed the 42rem padding */
+    margin-left: auto; 
+    padding: 0; 
 }
-
-/* --- PRODUCT GRID --- */
 .photo_six, .photo_sixes {
     width: 95%;
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    /* Smart Grid: fits as many as possible, minimum 160px wide */
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 12px;
 }
-
 .card, .card1 {
     background: white;
     border-radius: 8px;
@@ -1414,21 +1168,16 @@ a { text-decoration: none; color: inherit; }
     flex-direction: column;
     justify-content: space-between;
 }
-
-/* --- IMAGE FIX --- */
-/* This overrides your specific .card_photo36 etc settings for layout */
 [class^="card_photo"] {
-    width: 100% !important; /* Force full width of the card */
-    height: 160px !important; /* Fixed height for consistency */
+    width: 100% !important; 
+    height: 160px !important; 
     aspect-ratio: 1/1;
-    background-size: contain !important; /* Ensures image fits */
+    background-size: contain !important; 
     background-position: center !important;
     background-repeat: no-repeat !important;
     margin: 0 auto 10px auto;
     background-color: #fff;
 }
-
-/* --- BANNER GRIDS --- */
 .photo_three, .photo_three_one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1441,8 +1190,6 @@ a { text-decoration: none; color: inherit; }
     border-radius: 8px;
     display: block;
 }
-
-/* --- CIRCLE CATEGORIES (Top Picks) --- */
 .photo_o {
     display: flex;
     gap: 15px;
@@ -1452,8 +1199,6 @@ a { text-decoration: none; color: inherit; }
 }
 .card_one, .card_ones { flex: 0 0 100px; }
 .card_one img, .card_ones img { width: 100%; border-radius: 12px; }
-
-/* --- FOOTER --- */
 .CONTAIN_BOX {
     display: flex;
     flex-wrap: wrap;
@@ -1464,58 +1209,37 @@ a { text-decoration: none; color: inherit; }
     padding-bottom: 20px;
 }
 .box, .box_five { flex: 1; min-width: 200px; }
-
-
-/* =============================================
-   MOBILE MEDIA QUERIES (The Important Part)
-   ============================================= */
-
 @media screen and (max-width: 768px) {
-    
-    /* 1. Header Stacking */
     .head {
         padding: 10px 4%;
         justify-content: space-between;
     }
-    
-    .headj { order: 1; } /* Logo first */
-    .for-flex1 { order: 2; } /* Icons second */
-    
+    .headj { order: 1; } 
+    .for-flex1 { order: 2; } 
     .for-flex {
-        order: 3; /* Search bar last */
-        width: 100%; /* Full width */
+        order: 3; 
+        width: 100%; 
         margin-top: 10px;
     }
-    .sign { display: none; } /* Hide 'Sign in' text to save space */
-
-    /* 2. Banners Stack */
+    .sign { display: none; } 
     .photo_three, .photo_three_one {
-        grid-template-columns: 1fr; /* 1 column for banners */
+        grid-template-columns: 1fr; 
     }
-
-    /* 3. Product Grid - FORCE 2 COLUMNS */
     .photo_six, .photo_sixes {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
-    
-    /* 4. Adjust Card for Mobile */
     [class^="card_photo"] {
-        height: 130px !important; /* Slightly smaller images on mobile */
+        height: 130px !important; 
     }
-    
     .card, .card1 {
         padding: 5px;
     }
-    
     .smart { font-size: 0.8rem; }
-    
     .Add {
         padding: 4px;
         font-size: 0.8rem;
     }
-
-    /* 5. Footer Stacking */
     .CONTAIN_BOX {
         flex-direction: column;
     }
@@ -1523,7 +1247,5 @@ a { text-decoration: none; color: inherit; }
         border-bottom: 1px solid #ddd;
         padding-bottom: 10px;
     }
-    
-    /* 6. Fix Padding Issues */
     .viewse { padding-left: 0; }
 }
